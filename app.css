@@ -218,7 +218,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* NAVBAR \*/
+/* NAVBAR */
 
 
 
@@ -328,7 +328,7 @@ button:focus-visible, a:focus-visible {
 
     font-weight: 700;
 
-    transition: *background* 0.25s, transform 0.25s;
+    transition:  0.25s, transform 0.25s;
 
 }
 
@@ -378,26 +378,21 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* HERO \*/
-
-
-
-.hero {
-
-    min-height: 650px;
-
+/* HERO */
+.hero-image {
     display: flex;
-
-    flex-direction: column;
-
     justify-content: center;
+    align-items: center;
+}
 
-    padding-top: 85px;
-
-    padding-bottom: 28px;
-
-    position: relative;
-
+.hero-image img {
+    width: 180px;
+    height: 180px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    display: block;
 }
 
 
@@ -626,7 +621,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* HERO VISUAL \*/
+/* HERO VISUAL */
 
 
 
@@ -1014,13 +1009,13 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* MARQUEE \*/
+/* MARQUEE */
 
 
 
-/\* Menghentikan teks berjalan marquee \*/
+/* Menghentikan teks berjalan marquee */
 
-/\* Expertise Section \*/
+/* Expertise Section */
 
 .expertise-section {
 
@@ -1140,7 +1135,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* ABOUT \*/
+/* ABOUT */
 
 
 
@@ -1266,7 +1261,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* SKILLS \*/
+/* SKILLS */
 
 
 
@@ -1420,7 +1415,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* PROJECTS \*/
+/* PROJECTS */
 
 
 
@@ -1982,7 +1977,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* EXPERIENCE \*/
+/* EXPERIENCE */
 
 
 
@@ -2158,7 +2153,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* CONTACT \*/
+/* CONTACT */
 
 
 
@@ -2278,7 +2273,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* FOOTER \*/
+/* FOOTER */
 
 
 
@@ -2388,7 +2383,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* ANIMATION ON SCROLL \*/
+/* ANIMATION ON SCROLL */
 
 
 
@@ -2446,7 +2441,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* TABLET \*/
+/* TABLET */
 
 
 
@@ -2556,7 +2551,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* MOBILE NAVIGATION \*/
+/* MOBILE NAVIGATION */
 
 
 
@@ -3009,10 +3004,7 @@ button:focus-visible, a:focus-visible {
     }
 
 }
-
-
-
-/\* SMALL MOBILE \*/
+/* SMALL MOBILE */
 
 
 
@@ -3162,7 +3154,7 @@ button:focus-visible, a:focus-visible {
 
 
 
-/\* Tampilan HP \*/
+/* Tampilan HP */
 
 @media (max-width: 768px) {
 
